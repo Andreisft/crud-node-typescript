@@ -1,10 +1,10 @@
 # CRUD NODE
 
-Crud with Node.
+Crud with node and postgres
 
 ## Getting Started
 
-Clone project
+* Clone project
 
 ```
 git clone https://github.com/Andreisft/crud-nodeJs.git
