@@ -16,13 +16,15 @@ git clone https://github.com/Andreisft/crud-nodeJs.git
 npm install
 ```
 
+* Configure `config.ts` file with data from your postgres database
+
 * Start application
 
 ```
 npm start
 ```
 
-Navigate to `http://localhost:3000`
+Navigate to `http://localhost:3001`
 
 ## Built With
 
@@ -30,6 +32,7 @@ Navigate to `http://localhost:3000`
 * [TypeScript](https://www.typescriptlang.org/)
 * [Express](https://expressjs.com/pt-br/) 
 * [Postgresql](https://www.postgresql.org)
+* [Postman](https://www.getpostman.com/)
 
 ## Authors
 
