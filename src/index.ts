@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import routes from "./routes";
 
 const port = 3001;
 const app = express();
@@ -9,7 +10,7 @@ app.use(bodyParser.urlencoded({
     })
 );
 
-app.get("/", (_: express.Request, res: express.Response) => (res.send("In Work!")));
+app.use(routes);
 
 app.listen(port, () => {
     console.log(`App running on port ${port}.`);
