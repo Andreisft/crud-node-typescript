@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-Navigate to `http://localhost:3000`
+Navigate to `http://localhost:3001`
 
 ## Built With
 
